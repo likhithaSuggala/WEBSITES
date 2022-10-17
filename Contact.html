@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="icon" type="image/x-icon" href="file:///C:/Users/Likhitha Suggala/Documents/MS/FALL 22/CIS 525 WT/HW 5/favicon.png">
+<meta charset="utf-8">
+<title>Parimala's Contact</title>
+<style>
+/* Changes background colour to override */
+     .bg-white {
+       background-color: white; 
+     }
+.highlight {
+  background-color: #ee3;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 12px;}
+.button3 {border-radius: 50%;}
+#para1 {
+  text-align: left;
+  color: Olive;
+}
+body {
+  background-color: #faf2e4;
+  margin: 0 15%;
+  font-family: sans-serif;
+  }
+
+h1 {
+  color: #d1633c;
+  font-size: 1em;
+}
+
+h2 {
+  color: #d1633c;
+  font-size: 1em;
+
+}
+
+h3 {
+  color: #d1633c;
+  font-size: 1em;
+
+}
+</style>
+</head>
+
+<body>
+ <div class="bg-white">
+  <br/>
+  <article>
+    <!-- Form tag used to submit details -->
+    <form
+      name="form"
+      action="https://www.randyconnolly.com/tests/process.php"
+      onsubmit="return validateForm()"
+      novalidate
+      method="post"
+    >
+      <div>
+        <label for="name">Your name*</label> <br />
+        <input type="text" name="name" id="name"  placeholder="Enter your name"/>
+        <div class="error" id="nameError"></div>
+      </div>
+      <br />
+      <div>
+        <label for="email">Your e-mail address*</label> <br />
+        <input type="email" name="email" id="email" placeholder="Enter your email" />
+        <div class="error" id="emailError"></div>
+      </div>
+      <br />
+      <div>
+        <label for="phone">Your phone number</label> <br />
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="Enter your phone number"
+          maxlength="10"
+        />
+        <div class="error" id="phoneError"></div>
+      </div>
+      <br />
+      <br />
+  
+      <button>Submit</button>
+    </form>
+  </article>
+  </section>
+  <hr />
+  </section>
+<h1>Whatsapp</h1>
+Reach on 
+  <p class="highlight">+91-9491131133 below</p>
+
+<a href="https://api.whatsapp.com/send?phone=%2B919491131133&fbclid=IwAR095n84YZRTxz39Y5Ei-wj0wQ-ib82OcSdgmK_naLNg12SZtNMzPUFJ4CA" target = “_blank”" class="button button1">Click me</a>
+
+
+<h2>Instagram</h2>
+<p id="para1">ID: @parimalasweddingplanners  </p>
+<a href="https://www.instagram.com/parimalasweddingplanners/" target = “_blank” class="button button2">Instagram profile</a>
+
+<h3>Facebook</h2>
+<p>ID: @parimalasweddingplanners  </p>
+<a href="https://www.facebook.com/ParimalasWeddingPlanners" target = “_blank” class="button button3">Facebook profile</a>
+</div>
+</body>
+
+</html>
